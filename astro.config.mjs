@@ -8,15 +8,33 @@ export default defineConfig({
 	base: '/HomelabDoc',
 	integrations: [
 		starlight({
-			title: 'Homelab Documentation',
+			title: 'Homelab Docs',
+			tableOfContents: false,
 			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/withastro/starlight' }],
-			sidebar: [ { label: 'Server Build', link: '/server-build/' }],
-			sidebar: [ { label: 'Arch',
-				items: [
-      					{ label: 'Navigation Basics', link: '/arch/nav-basics/' },
-      					{ label: 'Networking Basics', link: '/arch/networking-basics/' },],
-  				    },
-  				],
-			}),
-		],
+			sidebar: [ 
+					{ 
+					label: 'Linux Commands',
+					items: [
+      						{ label: 'Navigation & File Operations Basics', link: '/linux/navfileopbasics/' },
+      						{ label: 'Search, view, permissions & ownership', link: '/linux/search-view-permissions/' },
+						{ label: 'System monitoring & management', link: '/linux/sysmonmanagement/' },
+						{ label: 'Journalctl logs', link: '/linux/journalctllogs/' },
+						{ label: 'Networking basics', link: '/linux/networkingbasics/' },
+						{ label: 'Text manipulation & cool shortcuts', link: '/linux/textmanipandshortcuts/' }
+					       ],
+  					},
+  				
+
+					{ 
+					label: 'Services',
+					items: [ 
+						{ label: 'To-Do list', link: '/serverservices/todolist/' },
+						{ label: 'Samba', link: '/serverservices/samba/'},
+						{ label: 'Smokeping', link: '/serverservices/smokeping/'}
+					       ]
+				  	}
+				]
+
+			  }),
+		     ],
 	});
