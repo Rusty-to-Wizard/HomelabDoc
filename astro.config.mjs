@@ -11,6 +11,12 @@ export default defineConfig({
 			title: 'Homelab Documentation',
 			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/withastro/starlight' }],
 			sidebar: [ { label: 'Server Build', link: '/server-build/' }],
+			sidebar: [ { label: 'Arch',
+				items: [
+      					{ label: 'Navigation Basics', link: '/arch/nav-basics/' },
+      					{ label: 'Networking Basics', link: '/arch/networking-basics/' },],
+  				    },
+  				],
 			}),
 		],
 	});
