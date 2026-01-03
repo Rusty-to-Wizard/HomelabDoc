@@ -4,8 +4,8 @@ import starlight from '@astrojs/starlight';
 
 // https://astro.build/config
 export default defineConfig({
-	site: 'https://Rusty-to-Wizard.github.io',
-	base: '/HomelabDoc',
+	site: 'https://bonelab.sh',
+	base: '/',
 	integrations: [
 		starlight({
 			title: 'Homelab Docs',
