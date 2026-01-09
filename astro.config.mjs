@@ -32,7 +32,16 @@ export default defineConfig({
 						{ label: 'Samba', link: '/serverservices/samba/'},
 						{ label: 'Smokeping', link: '/serverservices/smokeping/'}
 					       ]
+				  	},
+
+					{ 
+					label: 'Troubleshooting Logs',
+					items: [ 
+						{ label: 'Conflicting Routers', link: '/trblshtnglogs/conflictingrouters/' },
+						{ label: 'Future logs coming...', link: '/trblshtnglogs/futurepogs/'}
+					       ]
 				  	}
+
 				]
 
 			  }),
