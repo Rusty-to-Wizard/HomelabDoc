@@ -55,4 +55,10 @@ source ~/.bashsrc
 actual-finances
 ```
 
+Anytime you need to kill the tunnel:
 
+```bash
+pkill -f "ssh.*5006:localhost:5006"
+```
+
+PLEASE NOTE: You need to modify the port to your port.

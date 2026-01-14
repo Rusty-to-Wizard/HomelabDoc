@@ -29,6 +29,7 @@ export default defineConfig({
 					label: 'Services',
 					items: [ 
 						{ label: 'To-Do list', link: '/serverservices/todolist/' },
+						{ label: 'Actual Budget', link: '/serverservices/actual-budget'},
 						{ label: 'Samba', link: '/serverservices/samba/'},
 						{ label: 'Smokeping', link: '/serverservices/smokeping/'}
 					       ]
