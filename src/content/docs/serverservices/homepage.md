@@ -31,7 +31,7 @@ docker run -d \
 ```
 
 3. Add to Caddy (`/etc/caddy/Caddyfile`). Replace `x` with your chosen number.
-```
+```bash
 homepage.home {
     reverse.proxy 192.168.1.x:3000
 }
@@ -52,9 +52,7 @@ Your config files live in `/root/homepage/`:
 
 Basic example settings.yaml:
 
-```
-bash
-
+```bash
 providers:
   homepage:
     allowedHosts:
@@ -68,8 +66,7 @@ color: slate
 
 Basic example services.yaml:
 
-```
-bash
+```bash
 - My Homelab:
     - Proxmox:
         href: http://proxmox.home
@@ -84,8 +81,7 @@ bash
 
 Basic example bookmarks.yaml:
 
-```
-bash
+```bash
 - Documentation:
     - Bonelab:
         - abbr: DOCS
