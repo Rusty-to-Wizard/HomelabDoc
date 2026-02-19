@@ -32,7 +32,7 @@ export default defineConfig({
 						{ label: 'Actual Budget', link: '/serverservices/actual-budget'},
 						{ label: 'Samba', link: '/serverservices/samba/'},
 						{ label: 'Smokeping', link: '/serverservices/smokeping/'},
-						{ label: 'Homepage', link:/serverservices/homepage/}
+						{ label: 'Homepage', link:'/serverservices/homepage/'}
 					       ]
 				  	},
 
