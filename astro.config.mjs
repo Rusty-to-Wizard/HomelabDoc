@@ -31,7 +31,8 @@ export default defineConfig({
 						{ label: 'To-Do list', link: '/serverservices/todolist/' },
 						{ label: 'Actual Budget', link: '/serverservices/actual-budget'},
 						{ label: 'Samba', link: '/serverservices/samba/'},
-						{ label: 'Smokeping', link: '/serverservices/smokeping/'}
+						{ label: 'Smokeping', link: '/serverservices/smokeping/'},
+						{ label: 'Homepage', link:/serverservices/homepage/}
 					       ]
 				  	},
 
@@ -39,6 +40,7 @@ export default defineConfig({
 					label: 'Troubleshooting Logs',
 					items: [ 
 						{ label: 'Conflicting Routers', link: '/trblshtnglogs/conflictingrouters/' },
+						{ label: 'Unable to SSH LXCs', link: '/trblshtnglogs/sshintoproxmoxlxc.md'},
 						{ label: 'Future logs coming...', link: '/trblshtnglogs/futurepogs/'}
 					       ]
 				  	}
